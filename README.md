@@ -10,7 +10,7 @@ avrdude - burner
 
 sudo apt-get install gcc-avr avr-libc avrdude
 
-Note : No need FTDI driver for linux
+Note : No need FTDI driver for linux machine
 
 installation :
 
