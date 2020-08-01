@@ -10,6 +10,7 @@ sudo apt-get install gcc-avr avr-libc avrdude
 Note : No need FTDI driver for linux
 
 installation :
+
 avr-gcc -g -Os -mmcu=atmega328p -c leds.c
 
 avr-gcc -g -mmcu=atmega328p -o leds.elf leds.o
