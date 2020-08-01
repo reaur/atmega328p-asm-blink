@@ -21,3 +21,5 @@ avr-gcc -g -mmcu=atmega328p -o leds.elf leds.o
 avr-objcopy -j .text -j .data -O ihex leds.elf leds.hex
 
 avrdude -p atmega328p -c arduino -P /dev/ttyUSB0 -U flash:w:leds.hex
+
+Note : If permission require for usb; chmod a+rw /dev/ttyUSB0
