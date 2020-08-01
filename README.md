@@ -4,6 +4,7 @@ pre-requirements :
 gcc-avr - compiler
 avr-libc - standard AVR C library
 avrdude - burner
+
 sudo apt-get install gcc-avr avr-libc avrdude
 
 Note : No need FTDI driver for linux
